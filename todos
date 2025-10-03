@@ -1,0 +1,21 @@
+llm should know important specs about the request, but it should not know the entire request because its too long, but it should know at least the:
+- request line
+- dynamic inputs
+
+retriever should retrieve code examples
+
+split code examples by file instead of fixed chunks (maybe need to implement our own splitter). And if this is done, it will have two retrievers? If so, 
+decide what retrieve strategy to use
+
+add mcp support to query opendeepwiki
+
+design agent workflow. know how to use scalindraw
+
+loop until a good condition is met
+
+debug the embedding step
+
+integration test:
+- should know what turbo intruder and race condition is and how they are related
+- should return specific samples of jython scripts for turbo intruder
+- should me able to get the results from deepwiki and return a good response
