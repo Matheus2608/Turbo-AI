@@ -19,3 +19,20 @@ integration test:
 - should know what turbo intruder and race condition is and how they are related
 - should return specific samples of jython scripts for turbo intruder
 - should me able to get the results from deepwiki and return a good response
+
+agente para traduzir para ingles
+agente para transformar query mais facilmente
+
+colocar metadado do nome do arquivo na query. ex: file: race_cond.py \n resto do codigo
+
+4 fontes:
+- informacoes da ferramenta junto com ideias de ataque das pesquisas do albinoMax
+- scripts python de exemplo da ferramenta
+- scripts python e outras informacoes do deepwiki
+- request
+
+Deve-se juntar todas essas informacoes em duas partes para a llm final:
+- contexto
+- codigo exemplo
+
+fazer o frontend (essa aqui vai ser a mais dificil rs, sai de mim html)
